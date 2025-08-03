@@ -2,7 +2,8 @@
 local M = {}
 
 function M.setup()
-  require("electron.commands").setup()
+  --  require("electron.commands").setup()
+  print("elelctron-launch.nvim loaded suc successfully")
 end
 
 return M
